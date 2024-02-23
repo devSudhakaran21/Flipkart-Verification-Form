@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 780px;
+    height: 560px;
+    display: flex;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}    
+
+
+/* leftSection */
+.container .left {
+    width: 40%;
+    background-color: #2874f0;
+    color: #fff;
+    padding: 40px 33px;
+    background-image: url("img/login_img_c4a81e.png");
+    background-repeat: no-repeat;
+    background-position: center 85%;
+}
+.loginTxt h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+.loginTxt p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #dbdbdb;
+}
+.pic img {
+    width: 100%;
+    height: 100%;
+}
+a {
+    color: #2874f0;
+}
+
+/* right section  */
+.container .right {
+    width: 60%;
+    background-color: #fff;
+    padding: 34px 42px 28px;
+}
+/* request OTP  */
+.reqOtp {
+    font-size: 13px;
+    color: #b8b2b2;
+    display: none;
+}
+.inputfield {
+    margin-bottom: 40px;
+}
+.loginForm .inputfield input {
+    border-bottom: 1px solid #2874f0;
+    padding-bottom: 6px;
+    width: 100%;
+}
+.privacyPolicy {
+    margin-bottom: 28px;
+}
+
+button {
+    background-color: orangered;
+    color: #fff;
+    padding: 14px;
+    font-weight: 600;
+    border-radius: 2px;
+    width: 100%;
+}
+.createAcc {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* enter Otp  */
+.enterotp {
+    text-align: center;
+}
+.changeNum {
+    padding: 24px;
+    margin-bottom: 32px;
+    font-size: 18px;
+    line-height: 1.4;
+    /* font-weight: 200; */
+    color: #212121;
+}
+.changeNum a {
+    font-size: 18px;
+    font-weight: 300;
+} 
+.enterValue {
+    margin-bottom: 34px;
+    display: inline-block;
+    text-align: center;
+}
+.enterValue input {
+    width: 30px;
+    margin: 0 3px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+.enterValue input:focus {
+    border-color: #2874f0;
+}
+/* berifybtn */
+.otpVerification {
+    background-color: #2874f0;
+    margin-bottom: 34px;
+    padding: 10px 20px;
+    height: 48px;
+    font-size: 15px;
+}
+/* resendOtp */
+.resendOtp {
+    color: #b8b2b2;
+    font-size: 14px;
+}
+.reqOtp a {
+    font-weight: 500;
+}
+
+
+
+
